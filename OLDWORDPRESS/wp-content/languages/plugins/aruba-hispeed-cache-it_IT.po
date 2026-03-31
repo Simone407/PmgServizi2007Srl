@@ -1,0 +1,219 @@
+# Translation of Plugins - Aruba HiSpeed Cache - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - Aruba HiSpeed Cache - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-06-11 10:53:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - Aruba HiSpeed Cache - Stable (latest release)\n"
+
+#: admin/pages/AHSC_Settings.php:192
+msgid "Optimize Static File Cache."
+msgstr "Ottimizza la cache dei file statici."
+
+#: admin/pages/AHSC_Settings.php:193
+msgid "Optimize cache for static file such image file, css file js file etc.etc."
+msgstr "Ottimizza la cache per i file statici come immagini, file css, file js, ecc..."
+
+#: admin/pages/AHSC_Settings.php:187
+msgid "Static File Cache options"
+msgstr "Opzioni della cache dei file statici"
+
+#: admin/pages/AHSC_Settings.php:180
+msgid "Static File Cache:"
+msgstr "Cache file statici:"
+
+#. translators: %2$s: the guide url.
+#: src/AHSC_Check.php:254
+msgid "<strong>The HiSpeed Cache service is not enabled.</strong> To activate it, go to your domain <a href=\"%1$s\" rel=\"nofollow\" target=\"_blank\">control panel</a> (verifying the status may take up to 15 minutes). For further details <a href=\"%2$s\" rel=\"nofollow\" target=\"_blank\">see our guide</a>."
+msgstr "<strong>Il servizio HiSpeed Cache non è attivo.</strong> Accedi al <a href=\"%1$s\" rel=\"nofollow\" target=\"_blank\">pannello di controllo</a> del tuo dominio per attivarlo (il controllo dello stato di attivazione potrebbe richiedere fino a 15 minuti). Per maggiori dettagli <a href=\"%2$s\" rel=\"nofollow\" target=\"_blank\">consulta la nostra guida</a>."
+
+#: admin/pages/AHSC_Settings.php:170
+msgid "Enables Cache Warming."
+msgstr "Attiva Cache Warming."
+
+#: admin/pages/views/partials/admin-tab-debug.php:29
+msgid "Service check request headers."
+msgstr "Controllo servizio richiesta header."
+
+#: admin/pages/views/partials/admin-tab-debug.php:24
+msgid "File not found. The log file is not created, or is removed automatically, if the WordPress debugging feature is not enabled."
+msgstr "File non trovato. Il file dei log non è creato, oppure è rimosso automaticamente, nel caso in cui la funzione WordPress di debugging non è abilitata."
+
+#: admin/pages/views/partials/admin-tab-debug.php:15
+msgid "Purging Log Actions"
+msgstr "Azioni Purging Log"
+
+#: admin/pages/views/admin-settings.php:15
+msgid "Debug"
+msgstr "Debug"
+
+#: admin/pages/views/admin-settings.php:12
+msgid "General"
+msgstr "Generale"
+
+#. translators: %s: the min php version required.
+#: src/AHSC_Version.php:40
+msgid "Sorry, Aruba HiSpeed Cache requires PHP %s or higher."
+msgstr "Ci dispiace, Aruba HiSpeed Cache richiede PHP %s o più recente."
+
+#: src/AHSC_Functions.php:96
+msgid "Customer support"
+msgstr "Assistenza clienti"
+
+#: admin/pages/AHSC_Settings.php:171
+msgid "Cache Warming is the process through which webpages are preloaded in the cache so they can be displayed quicker.<br> When the cache is emptied, the homepage data and the last ten posts of the site are automatically renewed to guarantee faster page loading"
+msgstr "Il Cache Warming è il processo tramite cui le pagine web vengono precaricate nella cache per essere visualizzate più velocemente. <br> Quando viene svuotata la cache, si rinnovano automaticamente i dati della homepage e gli ultimi dieci post del sito, così da garantire la riduzione del tempo necessario per caricare le pagine"
+
+#: admin/pages/AHSC_Settings.php:164
+msgid "Cache Warming options"
+msgstr "Opzioni Cache Warming"
+
+#: admin/pages/AHSC_Settings.php:156
+msgid "Cache Warming:"
+msgstr "Cache Warming:"
+
+#: admin/pages/AHSC_Settings.php:134
+msgid "Comments"
+msgstr "Commenti"
+
+#: admin/pages/AHSC_Settings.php:126
+msgid "A published post (or page/custom post) is deleted"
+msgstr "Un articolo pubblicato (o pagina/contenuto personalizzato) viene cancellato"
+
+#: admin/pages/AHSC_Settings.php:103 admin/pages/AHSC_Settings.php:148
+msgid "A comment is not approved or is deleted"
+msgstr "Un commento non è approvato o viene cancellato"
+
+#: admin/pages/AHSC_Settings.php:96 admin/pages/AHSC_Settings.php:141
+msgid "A comment is published"
+msgstr "Un commento viene pubblicato"
+
+#: admin/pages/AHSC_Settings.php:89
+msgid "A post is published"
+msgstr "Un articolo viene pubblicato"
+
+#: admin/pages/AHSC_Settings.php:82
+msgid "Post/page/custom post:"
+msgstr "Articolo/pagina/contenuto personalizzato:"
+
+#: admin/pages/AHSC_Settings.php:67
+msgid "A post (or page/custom post) is modified or added."
+msgstr "Un articolo (o pagina/contenuto personalizzato) viene modificato o aggiunto."
+
+#: admin/pages/AHSC_Settings.php:52
+msgid "Automatically purge the entire cache when:"
+msgstr "Cancella automaticamente tutta la cache quando:"
+
+#: admin/pages/AHSC_Settings.php:42
+msgid "Enable automatic purge of the cache"
+msgstr "Attiva la pulizia automatica della cache"
+
+#: admin/pages/AHSC_Settings.php:36
+msgid "Cache purging options"
+msgstr "Opzioni di pulizia della cache"
+
+#: admin/AHSC_Admin_Bar.php:7
+msgid "Purge page cache"
+msgstr "Cancella la cache della pagina"
+
+#: src/AHSC_Config.php:80
+msgid "Cache purged."
+msgstr "Cache cancellata correttamente."
+
+#: src/AHSC_Config.php:75 src/AHSC_Config.php:85
+msgid "An error occurred. Please try again later or contact support."
+msgstr "Si è verificato un errore, riprova più tardi o contatta l'assistenza."
+
+#. Description of the plugin
+#: aruba-hispeed-cache.php
+msgid "Aruba HiSpeed Cache interfaces directly with the Aruba HiSpeed Cache service of the Aruba hosting platform and automates its management."
+msgstr "Aruba HiSpeed Cache si interfaccia direttamente con il servizio HiSpeed Cache della piattaforma hosting di Aruba e ne automatizza la gestione."
+
+#. Plugin URI of the plugin
+#: aruba-hispeed-cache.php
+msgid "https://hosting.aruba.it/wordpress.aspx"
+msgstr "https://hosting.aruba.it/wordpress.aspx"
+
+#. translators: %s: the assistance url.
+#: src/AHSC_Check.php:274
+msgid "<strong>The HiSpeed Cache service with which the plugin interfaces is not available on the server that hosts your website.</strong> To use HiSpeed Cache and the plugin, please contact <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">support</a>."
+msgstr "<strong>Il servizio HiSpeed Cache, con cui il plugin si interfaccia, non è disponibile sul server su cui è ospitato il tuo sito.</strong> Per poter utilizzare HiSpeed Cache e il plugin, contatta la nostra <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">assistenza</a>."
+
+#. translators: %s: the hosting truck url.
+#: src/AHSC_Check.php:293
+msgid "<strong>The Aruba HiSpeed Cache plugin cannot be used because your WordPress website is not hosted on an Aruba hosting platform.</strong> Buy an <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">Aruba Hosting service</a> and migrate your website to use the plugin."
+msgstr "<strong>Il plugin Aruba HiSpeed Cache non è utilizzabile poichè il tuo sito con WordPress non è ospitato su piattaforma hosting di Aruba.</strong> Acquista un servizio <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">hosting di Aruba</a> poi migra il tuo sito per utilizzare il plugin."
+
+#: admin/pages/AHSC_Settings.php:12
+msgid "Sorry, you need to be an administrator to use HiSpeed Cache."
+msgstr "Ci dispiace, ma devi essere un amministratore per usare Aruba HiSpeed Cache."
+
+#: admin/pages/AHSC_Settings.php:113
+msgid "(date, category, tag, author, custom taxonomies)"
+msgstr "(data, categoria, tag, autore, tassonomia custom)"
+
+#: admin/pages/AHSC_Settings.php:111
+msgid "Archives:"
+msgstr "Archivio:"
+
+#: admin/pages/AHSC_Settings.php:74
+msgid "a <strong>published post</strong> (or page/custom post) is <strong>cancelled</strong>."
+msgstr "un <strong>articolo pubblicato</strong> (o pagina/contenuto personalizzato) è <strong>cancellato</strong>."
+
+#: admin/pages/AHSC_Settings.php:119
+msgid "a <strong>post</strong> (or page/custom post) is <strong>modified</strong> or <strong>added</strong>."
+msgstr "un <strong>articolo</strong> (o pagina/contenuto personalizzato) è <strong>modificato</strong> o <strong>aggiunto</strong>."
+
+#: admin/pages/AHSC_Settings.php:60
+msgid "Home page:"
+msgstr "Home page:"
+
+#: src/AHSC_Functions.php:90
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: admin/AHSC_Admin_Bar.php:12
+msgid "Purge Cache"
+msgstr "Cancella cache"
+
+#: admin/pages/AHSC_Page.php:36
+msgid "You are about to purge the entire cache. Do you want to continue?"
+msgstr "Si sta per cancellare completamente la cache. Vuoi procedere?"
+
+#. translators: %s: the wp min required version.
+#: src/AHSC_Version.php:12
+msgid "Sorry, Aruba HiSpeed Cache requires WordPress %s or higher."
+msgstr "Ci dispiace, ma Aruba HiSpeed Cache richiede WordPress %s o una versione superiore."
+
+#: src/AHSC_Functions.php:139
+msgid "Settings saved."
+msgstr "Impostazioni salvate."
+
+#: admin/pages/views/admin-settings.php:33
+msgid "Purge entire cache"
+msgstr "Cancella cache"
+
+#: admin/pages/views/admin-settings.php:31
+msgid "Save changes"
+msgstr "Salva modifiche"
+
+#. Author URI of the plugin
+#: aruba-hispeed-cache.php
+msgid "https://www.aruba.it/"
+msgstr "https://www.aruba.it/"
+
+#. Author of the plugin
+#: aruba-hispeed-cache.php
+msgid "Aruba.it"
+msgstr "Aruba.it"
+
+#. Plugin Name of the plugin
+#: aruba-hispeed-cache.php admin/AHSC_Admin_Menu.php:10
+#: admin/AHSC_Admin_Menu.php:11 admin/pages/views/admin-settings.php:8
+msgid "Aruba HiSpeed Cache"
+msgstr "Aruba HiSpeed Cache"

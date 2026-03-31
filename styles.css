@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 400;
+    font-style:normal;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1; /* Questo consente al main di espandersi */
+}
+header {
+    background-color: #ffffff; /* Background color */
+    padding: 20px 0;
+}
+
+.navbar-nav .nav-link {
+    color: #000000; /* Color of menu links */
+    position: relative; /* Needed for pseudo-element positioning */
+    text-decoration: none;
+    padding-bottom: 5px; /* Space below text */
+}
+
+.navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #004494; /* Blue underline color */
+    transform: scaleX(0); /* Initially hidden */
+    transform-origin: right;
+    transition: transform 0.3s ease-out; /* Smooth transition */
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+    transform: scaleX(1); /* Show underline on hover and active */
+    transform-origin: left; /* Animates from left to right */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #004494; /* Color of link text on hover */
+}
+
+.navbar-brand img {
+    max-height: 60px; /* Limita l'altezza del logo */
+}
+
+/*
+p {
+    font-size: 20px;
+    line-height: 2em;
+    letter-spacing: 0.05em;
+    text-align: justify;
+    margin: 50px 0;
+    padding: 0 30px;
+    margin-top: 16px;
+    margin-bottom: 1em;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+*/
+
+footer {
+    background-color: #004494; /* Colore blu per il footer */
+    color: #ffffff; /* Colore del testo del footer */
+    padding: 20px 0; /* Padding superiore e inferiore */
+    text-align: center; /* Testo centrato */
+    position: relative; /* Cambia a fixed */
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px; /* Larghezza massima del footer */
+    margin: 0 auto; /* Centra il footer */
+}
+
+.footer-links {
+    text-align: center; /* Centra i link */
+    margin: 10px 0; /* Aggiungi margine per distanziarli dal resto del footer */
+}
+
+.footer-links a {
+    color: #ffffff; /* Colore dei link nel footer */
+    text-decoration: none; /* Rimuove la sottolineatura */
+    margin: 0 10px; /* Margine tra i link */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Sottolinea al passaggio del mouse */
+}
+/* Dropdown */
+.dropdown-content, .dropdown-content-nested {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    min-width: 200px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown-nested:hover .dropdown-content-nested {
+    display: block;
+}
+
+.dropdown-content a, .dropdown-content-nested a {
+    color: #004494;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover, .dropdown-content-nested a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Stile per la sezione "Chi Siamo" */
+.about-section {
+    padding: 40px 0;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex: 1;
+    min-width: 300px;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Sezione della sede */
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #004494;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+.text-center h2 {
+    color: #004494; /* Colore del titolo */
+    margin-bottom: 30px; /* Spazio sotto il titolo */
+}
+
+a {
+    text-decoration: none; /* Rimuove la sottolineatura */
+}
+
+
+
+/* Header Styles */
+.not h2 {
+    font-size: 2.5rem;
+    color: #0b245b; /* Dark blue for emphasis */
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+}
+
+.not h2::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 4px;
+    background-color: #f39c12; /* Accent color for underline */
+    left: 10%;
+    bottom: -10px;
+    border-radius: 2px;
+}
+
+/* News Card Styling */
+.news {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.news a {
+    display: block;
+    text-decoration: none;
+}
+
+.news img {
+    width: 100%;
+    height: 150px; /* Altezza uniforme per tutte le immagini */
+    object-fit: contain; /* Mantiene il rapporto d'aspetto, ridimensionando l'immagine */
+    border: 1px solid #e0e0e0; /* Aggiunge un bordo leggero per un aspetto uniforme */
+    padding: 10px; /* Spazio interno tra l'immagine e il bordo */
+    background-color: #ffffff; /* Sfondo bianco per un aspetto pulito */
+    border-radius: 10px; /* Aggiunge un leggero arrotondamento */
+}
+
+/* Hover Effects for Cards */
+.news:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .news img {
+        height: 200px; /* Adjust height for smaller screens */
+    }
+}
+
+.cliente-img {
+    width: 100%;
+    height: 150px; /* Altezza uniforme per tutte le immagini */
+    object-fit: contain; /* Mantiene il rapporto d'aspetto, ridimensionando l'immagine */
+    border: 1px solid #e0e0e0; /* Aggiunge un bordo leggero per un aspetto uniforme */
+    padding: 10px; /* Spazio interno tra l'immagine e il bordo */
+    background-color: #ffffff; /* Sfondo bianco per un aspetto pulito */
+    border-radius: 10px; /* Aggiunge un leggero arrotondamento */
+    margin-bottom: 20px;
+}
+
+/* Stile per la mappa */
+.map-container iframe {
+    width: 100%;
+    height: 400px; /* Altezza fissa per la mappa */
+    border: none; /* Rimuove il bordo */
+    border-radius: 10px; /* Angoli arrotondati */
+    margin-right: 190px; /* Margine a destra */
+}
+
+/* Dettagli di contatto */
+.contact-details {
+    margin-top: 20px;
+}
+
+/* Titoli della sezione */
+.team-title {
+    font-size: 1.5rem; /* Dimensione del font per i titoli */
+    color: #000000; 
+    margin-bottom: 10px;
+}
+
+/* Icone */
+.contact-details i {
+    color: #000000; 
+    margin-right: 10px; /* Margine a destra */
+}
+
+
+
+/* Stile del modulo */
+#form-section {
+    background-color: #ffffff; /* Colore di sfondo bianco */
+    border-radius: 10px; /* Angoli arrotondati */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+    padding: 20px;
+    
+}
+
+
+/* Pulsante di invio */
+button[type="submit"] {
+    background-color: #004494; /* Colore blu scuro */
+    color: #ffffff; /* Colore del testo bianco */
+    border: none; /* Rimuove il bordo */
+    border-radius: 5px; /* Angoli arrotondati */
+    padding: 10px 20px; /* Padding per il pulsante */
+    transition: background-color 0.3s; /* Transizione per il colore */
+}
+
+button[type="submit"]:hover {
+    background-color: #003366; /* Colore blu più scuro al passaggio del mouse */
+}
+
+#progress {
+    position: fixed;
+    bottom: 20px; /* Distanza dal fondo della pagina */
+    right: 50px; /* Distanza dal lato destro */
+    width: 50px; /* Dimensione del cerchio */
+    height: 50px; /* Dimensione del cerchio */
+    background: #007bff; /* Colore del cerchio */
+    color: white; /* Colore dell'icona */
+    border-radius: 50%; /* Rende il cerchio rotondo */
+    display: none; /* Nasconde il cerchio inizialmente */
+    justify-content: center; /* Centra l'icona */
+    align-items: center; /* Centra l'icona */
+    cursor: pointer; /* Mostra il cursore come pointer */
+    z-index: 1000; /* Assicura che sia sopra gli altri elementi */
+    transition: display 0.3s, opacity 0.3s; /* Aggiunge transizione */
+}
+
+#progress.show {
+    display: flex; /* Mostra il cerchio quando la classe 'show' è aggiunta */
+    opacity: 1; /* Aggiunge opacità */
+}
+
+#progress i {
+    font-size: 24px; /* Dimensione dell'icona */
+}
+
+
+
